@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+  <link rel="icon" href="/img/favicon.png" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>My Portfolio</title>   
+</head>
+<body>
+  <div class="shutter"></div>
+  <div id="cursor"></div>
+  <div id="stalker"></div>
+  <header class="header">
+    <p class="logo"><a href="#">My Portfolio</a></p>
+    <nav class="navGlobal" id="js-nav">
+      <ul>    
+        <li><a href="#">Top</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button class="header__hamburger hamburger" id="js-hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <div id="target"></div>
+  <main>
+    <div class="main_caption">
+      <div class="animate seven">
+        <h1><span>W</span><span>e</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span>&nbsp;<span>T</span><span>o</span>&nbsp;<span>M</span><span>y</span>&nbsp;<span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span></h1>
+        <p class="main_caption_p">はじめまして、ポートフォリオに目を通していただきありがとうございます。このポートフォリオでは、自分の今までの経歴やWeb業界に興味を持ったきっかけ、勉強してきたことなど載せております。 どうぞ、よろしくお願いします。</p>
+      </div>
+   
+      <a href="#works"><div class="scrolldown"><span class="scb">Scroll</span></div></a>
+    </div>
+
+    <div class="main_works" id="works">
+      <h2 class="main_h2 ani_1 fadeIn">WORKS</h2>
+      <div class="works_wrap">
+        <div class="works_item ani_1 fadeIn">
+          <div class="works_item_img">
+            <img src="img/portfolio_animal.jpg" alt="ポートフォリオのイメージ画像">
+            <a href="https://abesota.github.io/Portfolio-animal/" target="_blank">
+            <div class="img_text">
+              <p>Click!</p>
+            </div>
+            </a>
+          </div>
+          
+          <div class="w_item_explain">
+            <h3>制作物1</h3>
+            <span class="class_tag tag_school">オンラインスクールの制作物</span>
+            <p class="works_link"><a href="https://github.com/abesota/Portfolio-animal" target="_blank">https://github.com/abesota/Portfolio-animal(ソースコード)</a></p>
+            <span class="lang_tag tag_htccs tag_first">HTML/CSS</span>
+            <span class="lang_tag tag_bootst">Bootstrap</span>
+            <span class="lang_tag tag_js">Javascript</span>
+            <span class="lang_tag tag_jq">jQuery</span>
+            <p class="w_item_text">こちらはオンラインスクールの学習過程で作ったサイトです。jQueryの外部ライブラリWaypoints.jsやMagnific Popupを使ったモダールウィンドウ、Animate.cssを使ったアニメーションなどが実装されています。主にjQueryとその外部ライブラリの使いかたについて学びました。</p>
+          </div>
+        </div>
+    
+        <div class="works_item ani_2 fadeIn">
+          <div class="works_item_img">
+            <img src="img/Message_Board.png" alt="ポートフォリオのイメージ画像">
+            <a href="https://message-board-souta0925.herokuapp.com/" target="_blank">
+              <div class="img_text">
+                <p>Click!</p>
+              </div>
+            </a>
+          </div>
+          <div class="w_item_explain">
+            <h3>制作物2</h3>
+            <span class="class_tag tag_school">オンラインスクールの制作物</span>
+            <p class="works_link"><a href="https://github.com/abesouta/kadai-tasklist" target="_blank">https://github.com/abesouta/kadai-tasklist(ソースコード)</a></p>
+            <span class="lang_tag tag_bootst tag_first">Bootstrap</span>
+            <span class="lang_tag tag_php">PHP/Laravel</span>
+            <span class="lang_tag tag_git">Git</span>
+            <span class="lang_tag tag_github">GitHub</span>
+            <span class="lang_tag tag_mysql">MySQL</span>
+
+            <p class="w_item_text">こちらはオンラインスクールの学習過程で作ったサイトです。Gitを使ったコマンド操作、Githubでのバージョン管理、MySQLの基本操作（CRUD操作やテーブルやデータの作成・編集・削除など）を学んだ後にフロントエンドはBootstrapでバックエンドはPHP/Laravelを使い簡単なメッセージボードを作りました。</p>
+          </div>
+        </div>
+        <div class="works_item ani_1 fadeIn">
+          <div class="works_item_img">
+            <img src="img/portfolio_sns.png" alt="ポートフォリオのイメージ画像">
+            <a href="https://microposts-0123.herokuapp.com/" target="_blank">
+              <div class="img_text">
+                <p>Click!</p>
+              </div>
+            </a>
+          </div>
+          <div class="w_item_explain">
+            <h3>制作物3</h3>
+            <span class="class_tag tag_school">オンラインスクールの制作物</span>
+            <p class="works_link"><a href="https://github.com/abesouta/kadai-microposts" target="_blank">https://github.com/abesouta/kadai-microposts(ソースコード)</a></p>
+            <span class="lang_tag tag_bootst tag_first">Bootstrap</span>
+            <span class="lang_tag tag_php">PHP/Laravel</span>
+            <span class="lang_tag tag_git">Git</span>
+            <span class="lang_tag tag_github">GitHub</span>
+            <span class="lang_tag tag_mysql">MySQL</span>
+            <p class="w_item_text">こちらはオンラインスクールの学習過程で作った簡単なtwitterのクローンです。メッセージボードを作った時同様、Bootstrap、PHP/Laravel、Git/GitHub、MySQLを使用しました。先ほどのメッセージボードと同様にメッセージの投稿・削除ができますが、違うところはユーザー登録・ログイン、フォロー、お気に入り追加などの機能が実装されているところです。
+            </p>
+          </div>
+        </div>
+        
+        <div class="works_item ani_2 fadeIn">
+          <div class="works_item_img">
+            <img src="img/portfolio_1.png" alt="ポートフォリオのイメージ画像">
+            <a href="https://abesota.github.io/Portfolio_1/" target="_blank">
+              <div class="img_text">
+                <p>Click!</p>
+              </div>
+            </a>
+          </div>
+          <div class="w_item_explain">
+            <h3>制作物4</h3>
+            <span class="class_tag tag_copy_site">模写コーディング</span>
+            <span class="class_tag tag_study">独学</span>
+            <p class="works_link"><a href="https://github.com/abesota/Portfolio_1" target="_blank">https://github.com/abesota/Portfolio_1(ソースコード)</a></p>
+            <span class="lang_tag tag_htccs tag_first">HTML/CSS</span>
+            <span class="lang_tag tag_js">Javascript</span>
+            <span class="lang_tag tag_jq">jQuery</span>
+            <p class="w_item_text">こちらはデザインカンプをもとに模写しました。トップページでは商品一覧を表示し、各商品をクリックすると簡単な商品詳細のページが表示されます。css グリッドを使い、デバイスの幅に応じて自動でカラム数が変換されます。レスポンシブにも対応もしています。</p>
+            <p class="copy_site_link">模写元のサイトは<a href="https://code-step.com/demo/html/store2/" target="_blank">こちら→</a></p>
+          </div>
+        </div>
+    
+        <div class="works_item ani_1 fadeIn">
+          <div class="works_item_img">
+            <img src="img/portfolio_2.png" alt="ポートフォリオのイメージ画像">
+            <a href="https://abesota.github.io/Portfolio_2/" target="_blank">
+              <div class="img_text">
+                <p>Click!</p>
+              </div>
+            </a>
+          </div>
+          <div class="w_item_explain">
+            <h3>制作物5</h3>
+            <span class="class_tag tag_copy_site">模写コーディング</span>
+            <span class="class_tag tag_study">独学</span>
+            <p class="works_link"><a href="https://github.com/abesota/Portfolio_2" target="_blank">https://github.com/abesota/Portfolio_2(ソースコード)</a></p>
+            <span class="lang_tag tag_htccs tag_first">HTML/CSS</span>
+            <p class="w_item_text">こちらはデザインカンプをもとに模写しました。架空の歯科クリニックのサイトです。"トップページ" "医院紹介" "診療案内" "スタッフ紹介" "アクセス" の5ページで構成されています。flexboxやfloatを使いコーディングしました。</p>
+            <p class="copy_site_link">模写元のサイトは<a href="https://haniwaman.com/sample/part3/template_08/" target="_blank">こちら→</a></p>
+          </div>
+        </div>
+
+        <div class="works_item ani_2 fadeIn">
+          <div class="works_item_img">
+            <img src="img/portfolio_3.png" alt="ポートフォリオのイメージ画像">
+            <a href="https://abesota.github.io/Portfolio_3_iSara/" target="_blank">
+              <div class="img_text">
+                <p>Click!</p>
+              </div>
+            </a>
+          </div>
+          <div class="w_item_explain">
+            <h3>制作物6</h3>
+            <span class="class_tag tag_copy_site">模写コーディング</span>
+            <span class="class_tag tag_study">独学</span>
+            <p class="works_link"><a href="https://github.com/abesota/Portfolio_3_iSara" target="_blank">https://github.com/abesota/Portfolio_3_iSara(ソースコード)</a></p>
+            <span class="lang_tag tag_htccs tag_first">HTML/CSS</span>
+            <span class="lang_tag tag_js">Javascript</span>
+            <span class="lang_tag tag_jq">jQuery</span>
+            <p class="w_item_text">こちらはデザインカンプをもとに模写しました。このサイトはトップページのみのLPです。cssでは主にflexboxや要素を重ねるときはpositionを使用しました。また、Javascriptを使い、アコーディオンメニューやトップスクロールなどを配置しました。</p>
+            <p class="copy_site_link">模写元のサイトは<a href="https://isara.life/" target="_blank">こちら→</a></p>
+          </div>
+        </div>
+
+        <div class="works_item ani_1 fadeIn">
+          <div class="works_item_img">
+            <img src="img/portfolio_4.png" alt="ポートフォリオのイメージ画像">
+            <a href="https://abesota.github.io/Portfolio_4_pon-design/" target="_blank">
+              <div class="img_text">
+                <p>Click!</p>
+              </div>
+            </a>
+          </div>
+          <div class="w_item_explain">
+            <h3>制作物7</h3>
+            <span class="class_tag tag_copy_site">模写コーディング</span>
+            <span class="class_tag tag_study">独学</span>
+            <p class="works_link"><a href="https://github.com/abesota/Portfolio_4_pon-design" target="_blank">https://github.com/abesota/Portfolio_4_pon-design(ソースコード)</a></p>
+            <span class="lang_tag tag_htccs tag_first">HTML/CSS</span>
+            <span class="lang_tag tag_js">Javascript</span>
+            <span class="lang_tag tag_jq">jQuery</span>
+            <p class="w_item_text">こちらはデザインカンプをもとに模写しました。5つのページと記事ページ１つで構成された、架空のWeb制作会社のコーポレートサイトです。jQueryを使用したハンバーガーメニューやトップスクロール、jQueryの外部ライブラリSwiper jsを使用した、スライドショーアニメーションなどを実装しました。レスポンシブにも対応しています。</p>
+            <p class="copy_site_link">模写元のサイトは<a href="https://pon-design.netlify.app/" target="_blank">こちら→</a></p>
+          </div>
+        </div>
+
+        <div class="works_item ani_2 fadeIn">
+          <div class="works_item_img">
+            <img src="img/portfolio_5.png" alt="ポートフォリオのイメージ画像">
+            <a href="https://abesota.github.io/Portfolio_5_Maipyon/" target="_blank">
+              <div class="img_text">
+                <p>Click!</p>
+              </div>
+            </a>
+          </div>
+          <div class="w_item_explain">
+            <h3>制作物8</h3>
+            <span class="class_tag tag_copy_site">模写コーディング</span>
+            <span class="class_tag tag_study">独学</span>
+            <p class="works_link"><a href="https://github.com/abesota/Portfolio_5_Maipyon" target="_blank">https://github.com/abesota/Portfolio_5_Maipyon(ソースコード)</a></p>
+            <span class="lang_tag tag_htccs tag_first">HTML/CSS</span>
+            <span class="lang_tag tag_js">Javascript</span>
+            <span class="lang_tag tag_jq">jQuery</span>
+            <p class="w_item_text">こちらはデザインカンプをもとに模写しました。トップページのみですが、cssのboxshadowを使った影やhover時のアニメーション、jQueryによる表示のアニメーションにより全体的に柔らかい見た目のサイトになっています。また、Skills項目のドーナツグラフはPure CSS Percentage Circle(cssライブラリ)を使用しました。レスポンシブにも対応しています。
+            </p>
+            <p class="copy_site_link">模写元のサイトは<a href="https://maipyon.net/programming/portfolio_demo/" target="_blank">こちら→</a></p>
+          </div>
+        </div>
+
+        <div class="works_item ani_1 fadeIn">
+          <div class="works_item_img">
+            <img src="img/portfolio_wp.png" alt="ポートフォリオのイメージ画像">
+            <a href="https://sota-myportal.info/works_1/" target="_blank">
+              <div class="img_text">
+                <p>Click!</p>
+              </div>
+            </a>
+          </div>
+          <div class="w_item_explain">
+            <h3>制作物9</h3>
+            <span class="class_tag tag_original">オリジナル</span>
+            <span class="class_tag tag_study">独学</span>
+            <span class="class_tag tag_wp">WordPressテーマ制作</span>
+            <p class="works_link"><a href="https://sota-myportal.info/works_1/" target="_blank">https://sota-myportal.info/works_1/(サイトURL)</a></p>
+            <span class="lang_tag tag_htccs tag_first">HTML/CSS</span>
+            <span class="lang_tag tag_wp">WordPress</span>
+            <p class="w_item_text">こちらはWordPressを使って作りました。レンタルサーバーとドメインを用意し、そこにWordPressを導入し、Lightningというテーマを使用しそれをカスタマイズしました。このサイトは架空のWeb制作会社のコーポレートサイトという設定です。</p>
+          </div>
+        </div>
+
+        <div class="works_item ani_2 fadeIn">
+          <div class="works_item_img">
+            <img src="img/portfolio_5.png" alt="ポートフォリオのイメージ画像">
+            <a href="https://abesota.github.io/Portfolio_5_Maipyon/" target="_blank">
+              <div class="img_text">
+                <p>Click!</p>
+              </div>
+            </a>
+          </div>
+          <div class="w_item_explain">
+            <h3>制作物10<small>（このサイト）</small></h3>
+            <span class="class_tag tag_original">オリジナル</span>
+            <span class="class_tag tag_study">独学</span>
+            <p class="works_link"><a href="https://github.com/abesota/Portfolio_5_Maipyon" target="_blank">https://github.com/abesota/Portfolio_5_Maipyon(ソースコード)</a></p>
+            <span class="lang_tag tag_htccs tag_first">HTML/CSS</span>
+            <span class="lang_tag tag_js">Javascript</span>
+            <span class="lang_tag tag_jq">jQuery</span>
+            <p class="w_item_text">こちらはポートフォリオとして作ったオリジナルサイトです。経歴や今まで勉強してきたこと、実績などを紹介するために作りました。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="main_skills" id="skills">
+      <h2 class="main_h2 ani_1 fadeIn">Skills</h2>
+      <div class="sk_item_wrap ani_1 fadeIn">
+        <div class="sk_item">
+          <div class="sk_lang">
+            <h3>HTML/CSS</h3><br>
+            <span class="star5_rating" data-rate="5"></span>
+            <span class="skill_open"><i class="fa-solid fa-angle-down"></i></span>
+          </div>
+          <div class="sk_text">HTMLとCSSだけで言えば、ほとんどのWebサイトのコーディングをすることができます。また、WordPressテーマを使用したカスタマイズもサイトのデザイン面であれば、ほぼ可能です。
+          </div>
+        </div>
+        <div class="sk_item">
+          <div class="sk_lang">
+            <h3>Bootstrap</h3><br>
+            <span class="star5_rating" data-rate="4"></span>
+            <span class="skill_open"><i class="fa-solid fa-angle-down"></i></span>
+          </div>
+          <div class="sk_text">Bootstrapの基本的な使い方はある程度、理解しています。詳しくはポートフォリオをご覧ください。</div>
+        </div>
+        <div class="sk_item">
+          <div class="sk_lang">
+            <h3>Javascript/jQuery</h3><br>
+            <span class="star5_rating" data-rate="4"></span>
+            <span class="skill_open"><i class="fa-solid fa-angle-down"></i></span>
+          </div>
+          <div class="sk_text">JavascriptやjQueryはWebサイトを作るうえでの基本は理解しています。ハンバーガーメニュー、スライドショー、トップスクロール、アニメーションなどであれば実装可能です。 詳しくはポートフォリオをご覧ください。</div>
+        </div>
+        <div class="sk_item">
+          <div class="sk_lang">
+            <h3>WordPress</h3><br>
+            <span class="star5_rating" data-rate="3.5"></span>
+            <span class="skill_open"><i class="fa-solid fa-angle-down"></i></span>
+          </div>
+          <div class="sk_text">レンタルサーバーやドメインの準備、WordPressのインストールなどの使う前の準備やWordPressテーマの簡単なカスタマイズ、ローカルで作ったものをサーバーへアップロードするなどのことができます。 詳しくはポートフォリオをご覧ください（WordPressでのポートフォリオは1つのみです）。
+          </div>
+        </div>
+        <div class="sk_item">
+          <div class="sk_lang">
+            <h3>PHP/Larabel</h3><br>
+            <span class="star5_rating" data-rate="2.5"></span>
+            <span class="skill_open"><i class="fa-solid fa-angle-down"></i></span>
+          </div>
+          <div class="sk_text">PHP/Larabelに関しては、オンラインスクールの学習過程で学びました。
+            PHPの基礎文法は理解しています。スクールでの制作物ですが、簡単なメッセージボードや簡単なTwitterのクローンを作りました。開発環境はAWS Cloud9です。 ログイン機能、投稿・削除機能、フォロー機能などがあります。 
+          </div>
+        </div>
+        <div class="sk_item">
+          <div class="sk_lang">
+            <h3>MySQL</h3><br>
+            <span class="star5_rating" data-rate="2.5"></span>
+            <span class="skill_open"><i class="fa-solid fa-angle-down"></i></span>
+          </div>
+          <div class="sk_text">
+            MySQLに関してもオンラインスクールの学習過程で学びました。MySQLの接続・起動方法やデータベースのCRUD(データやテーブルの作成,削除など)基本的な操作は理解しているつもりです。メッセージボードやTwitterのクローンを作った時のデータベースにMySQLを使用しました。
+          </div>
+        </div>
+        <div class="sk_item">
+          <div class="sk_lang">
+            <h3>Git/GitHub</h3><br>
+            <span class="star5_rating" data-rate="3"></span>
+            <span class="skill_open"><i class="fa-solid fa-angle-down"></i></span>
+          </div>
+          <div class="sk_text">
+            Git/GitHubに関してもオンラインスクールの学習過程で学びました。メッセージボードやTwitterのクローンを作った時Gitでバージョン管理をしながら作り、それらをGithubにpushしました。
+            Gitでバージョン管理をする上での基本操作や、Githubの基本的な使いかたは理解しています。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
+    <div class="main_about" id="about">
+      <h2 class="main_h2 ani_1 fadeIn">About Me</h2>
+      <div class="about_content ani_1 fadeIn">
+        <div class="ab_item">
+          <h3>自己紹介</h3>
+          <div class="ab_item_txt">
+            <ul>
+              <li>氏名： 阿部颯太</li>
+              <li>性別： 男</li>
+              <li>生年月日： 2002年9月25日(19歳)</li>
+              <li>出身： 福島県いわき市</li>
+              <li>学歴： 高卒</li>
+              <li>趣味： モノづくり（工作など）</li>
+            </ul>
+            <div class="ab_item_txt_inner ani_1 fadeIn">
+              <h4>Web業界に興味を持ったきっかけ</h4>
+              <p>僕がWeb業界に興味をもったきっかけは、WordPressでブログをはじめるためにWebサイトを作ったことです。→（今から1年半前）</p>
+              <p>ブログ自体はすぐにやめてしまいましたが、そこでWebサイトの作り方やデザインに興味を持ち、HTML/CSSというものを知って、最初は本やオンラインサービスなどでそれらの基礎(Webサイトのつくり方)などの勉強しました。 </p>
+              <p>最初はなんとなくで勉強していて、その頃、将来は何になろうかな程度に考えていたのですが、勉強しているうちにWebデザイナー、Webエンジニア(プログラマー)という職業を知り、そこでWebエンジニアになるにはどうしたらいいのか? どういうものなのか? などを調べつつ、オンラインスクールや独学でフロントエンドやバックエンドの勉強をしました。 その中でフロントエンドにやりがいを感じました。</p>
+            </div>
+            <div class="ab_item_txt_inner ani_1 fadeIn">
+              <h4>将来目指すもの</h4>
+              <p>就職の軸として現時点ではweb系・Web制作系の会社で働きたいと思っています。今までフロントエンドをメインで勉強してきたので業務でもフロントエンドに携わりたいです。ただ将来的には、フロントエンドだけでなくバックエンド、SEO、 Webマーケティングなどその分野において幅広く対応できるプロフェッショナルを目指しています。
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main_contact ani_1 fadeIn" id="contact">
+      <div>
+        <h2 class="main_h2">Contact</h2>
+        <p class="con_p">※お問い合わせは下記のフォームよりお願いたします。</p>
+        <div class="c_content">
+          <form action="#contact">
+            <label for="name">
+              <h4>お名前 <span class="req">*必須</span></h4>
+              <input type="text" name="name" id="name" class="txt_frame" required>
+            </label>
+            <label for="email">
+              <h4>メールアドレス <span class="req">*必須</span></h4>
+              <input type="email" name="email" id="email" class="txt_frame" required>
+            </label>
+            <label for="tel">
+              <h4>電話番号 <span class="tel_sm">（半角数字ハイフンなし）</span></h4>
+              <input type="tel" name="tel" id="tel" class="tel_frame">
+            </label>
+            <label for="contact_txt">
+              <h4>お問い合わせ内容 <span class="req">*必須</span></h4>
+              <textarea name="contact" id="contact_txt" rows="7" placeholder="お問い合わせ内容をご記入ください" class="con_textarea" required></textarea>
+            </label>
+            <a href="#contact" class="send_btn">送信する</a>
+          </form>
+        </div>  
+      </div>
+    </div>
+  </main>
+  <footer>
+    <small>Copyright © 2022 My Portfolio All rights reserved.</small>
+  </footer>
+
+  <a href="#" id="top"><i class="fa-solid fa-rocket"></i></a>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
