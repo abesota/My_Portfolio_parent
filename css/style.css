@@ -69,7 +69,7 @@ body {
 .navGlobal ul li { margin: 22px 16px 0; font-size: 18px; font-weight: bold;}
 .navGlobal ul li:last-child { margin-right: 30px;}
 .navGlobal ul li a { display: inline-block; color: #333; text-decoration: none; position: relative; cursor: default !important;}
-.navGlobal ul li a::after { position: absolute; bottom: -3px; left: 0; content: ''; width: 100%; height: 2px; background: #333; transform: scale(0, 1); transform-origin: left top; transition: transform .3s;}
+.navGlobal ul li a::after { position: absolute; bottom: -6px; left: 0; content: ''; width: 100%; height: 3px; background: #636363; transform: scale(0, 1); transform-origin: left top; transition: transform .3s;}
 .navGlobal ul li a:hover { text-decoration: none; cursor: pointer !important;}
 .navGlobal ul li a:hover::after { transform: scale(1, 1);}
 
